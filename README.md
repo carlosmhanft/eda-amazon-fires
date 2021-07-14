@@ -225,6 +225,18 @@ Next step that we can dig a little more is compare fires across States. Since I 
 
 First, a horizontal barplot to display each brazilian region and the number of forest fires reported. The "Centro-Oeste" (english: Middle-West) region has the majority of reports in the dataset. 
 
-Then, we break it down into States to find which States in Brazil has the most number of forest fires. Brazil has 26 states in total and it would be too much data to show in a single chart. So I display the top 10 to clean a little a bit our visualization.
+![barplot-forestfires-region](img/barplot-forestfires-region.png)
 
+Then, we break it down into States to find which States in Brazil has the most number of forest fires. Brazil has 26 states in total and it would be too much data to show in a single chart. That being said, I'm gonna display the top 10 to clean a little a bit our visualization.
 
+![barplot-forestfires-state](img/barplot-forestfires-state.png)
+
+# Final thoughts
+
+**Mato Grosso** is the third biggest Brazilian State in area (estimated: 903,357 km²) and it is famous by its Fauna and Flora. Pantanal is the heart of the State and its importance is recognized by UNESCO on its website (https://whc.unesco.org/en/list/999/)
+
+Sadly, it faces the threat more than any other State up until now that (as I'm writing this project) we are entering the second half of 2021 where forest fires are more frequent historically. We do not have all the data we wanted but with what we got is enough to tell us the urgency of the matter.
+
+Thanks for sticking with me.
+
+Have a nice day.
