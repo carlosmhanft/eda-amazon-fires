@@ -200,3 +200,5 @@ Usually, I like to analyze any set of information using the "top-down" approach 
 First question that came to my mind was "Is wildfires increasing over time?" and "What's the trend?". A single line chart can easily answer this but I decided to add a little line which represents the trend instead of use my "visual skills" to determine it.
 
 
+![timeseries-forestfires](img/timeseries-forestfires.png)
+
