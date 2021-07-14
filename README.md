@@ -2,7 +2,7 @@
 
 Brief analysis of Amazon Forest fires reported from 1998 to 2017.
 
-The data is a compilation of datasets from official government reports and posted on Kaggle by Luís Gustavo Modelli.
+The data is a compilation of official government reports and was posted on Kaggle by Luís Gustavo Modelli.
 
 More info here : [Kaggle Dataset](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)
 
