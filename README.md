@@ -21,9 +21,10 @@ Let's dive into it. Thanks for being here.
 We have a dataset that contains the **number of fires reported in Brazil**.Including information by each State, year and month.
 While I was looking the data I felt the need to exclude the first two years of measurement because those numbers were relatively too low compared with other years, which suggest the process of collecting the data was not that robust at the time. **So I filtered my dataset to get data from year 2000 or after that**.
 
-# Tools
+## Tools
 
 Language:   Python, always Python.
+
 IDE:        VS Code
 
 ## Tables
