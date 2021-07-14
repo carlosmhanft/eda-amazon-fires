@@ -208,3 +208,14 @@ Now let´s look at the distribution of reports of wildfires. When working with `
 We have a "right-skewed" distribution where roughly 80% the reports were 200 wildfires or less.
 
 ![histogram-forestfires](img/histogram-forestfires.png)
+---
+![histogram-cumulative-forestfires](img/histogram-cumulative-forestfires.png)
+
+One aspect that is worth looking for more details is sazonality, differences in climate over the year or economic events may influence the amount of fires. Let´s check it out.
+
+![boxplot-forestfires-month](img/boxplot-forestfires-month.png)
+
+Historically, months like July, October and November are the ones with more reports of forest fires but one thing is interesting here. The second half of the year is way more relevant and critical then the first half.
+
+
+
