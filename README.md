@@ -1,6 +1,6 @@
 # The never-ending threat in Amazon rainforest
 
-Brief analysis of Amazon Fires reported from 1998 to 2017.
+Brief analysis of Amazon Forest fires reported from 1998 to 2017.
 
 The data is a compilation of datasets from official government reports and posted on Kaggle by Luís Gustavo Modelli.
 
