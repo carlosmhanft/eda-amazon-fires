@@ -199,8 +199,12 @@ Usually, I like to analyze any set of information using the "top-down" approach 
 
 First question that came to my mind was "Is wildfires increasing over time?" and "What's the trend?". A single line chart can easily answer this but I decided to add a little line which represents the trend instead of use my "visual skills" to determine it.
 
-Despite the number of wildfires decreasing after huge increases, the trend shows a upward movement which is what we are most concerned.
+Despite the number of wildfires decreasing after huge increases, the trend shows an upward movement which is what we are most concerned.
 
 ![timeseries-forestfires](img/timeseries-forestfires.png)
 
+Now let´s look at the distribution of reports of wildfires. When working with `seaborn.histplot` there is a parameter "binwidth" which you can increase/decrease the width of each bar of the distribution, in this case I use "binwidth = 50" but it is up to you to change it.
 
+We have a "right-skewed" distribution where roughly 80% the reports were 200 wildfires or less.
+
+![histogram-forestfires](img/histogram-forestfires.png)
