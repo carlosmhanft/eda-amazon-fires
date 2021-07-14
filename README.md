@@ -211,11 +211,20 @@ We have a "right-skewed" distribution where roughly 80% the reports were 200 wil
 ---
 ![histogram-cumulative-forestfires](img/histogram-cumulative-forestfires.png)
 
-One aspect that is worth looking for more details is sazonality, differences in climate over the year or economic events may influence the amount of fires. Let´s check it out.
+One aspect that is worth looking for more details is sazonality, differences in climate over the year or economic events may influence the amount of fires. A boxplot grouped by month may give some hint.
 
 ![boxplot-forestfires-month](img/boxplot-forestfires-month.png)
 
-Historically, months like July, October and November are the ones with more reports of forest fires but one thing is interesting here. The second half of the year is way more relevant and critical then the first half.
+Historically, months like July, October and November are the ones with more reports of forest fires but one thing is interesting here. The second half of the year is way more relevant and critical then the first half. Probably one reason that supports that result is brazil's climate where the decline in precipitation (a.k.a. rain) and increase in the average temperature starting in June, the chart below from Hikersbay website helps a lot to understand it.
 
+> **Rule of thumb **: Less precipitation + Higher temperatures = Perfect scenario for fires
+
+![Brazil-climate-precipitation](https://user-images.githubusercontent.com/68624329/125688008-a833cc6e-294d-4b8f-85f9-fac26022dc72.png)
+
+Next step that we can dig a little more is compare fires across States. Since I am brazilian I know these States are divided in geographical regions and include another level to our analysis. Theses regions were created to group diferent States with similarities in aspects like economic drivers, climate and so on.
+
+First, a horizontal barplot to display each brazilian region and the number of forest fires reported. The "Centro-Oeste" (english: Middle-West) region has the majority of reports in the dataset. 
+
+Then, we break it down into States to find which States in Brazil has the most number of forest fires. Brazil has 26 states in total and it would be too much data to show in a single chart. So I display the top 10 to clean a little a bit our visualization.
 
 
