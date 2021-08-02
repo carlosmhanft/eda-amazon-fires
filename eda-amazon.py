@@ -124,8 +124,10 @@ sns.lineplot(
     y = 'fires_reported',
     estimator = 'sum',
     color = 'red',
+    label='N. of Wildifires',
     ci= None
-)
+).set_xticks(df_year.year.values)
+
 
 # Trendline in Black
 z = np.polyfit(np.unique(df_year.year),df_year.number, 1)
@@ -134,15 +136,13 @@ p = np.poly1d(z)
 plt.plot(df_year.year,p(df_year.year),"k--", alpha = 0.5)
 
 
-plt.title('Time Series - Number of Forest Fires', fontsize = 25)
+plt.title('Total Forest Fires in Brazil (2000 - 2017)', fontsize = 25)
 plt.xlabel(None)
 plt.ylabel(None)
 plt.xticks(fontsize = 15)
 plt.yticks(fontsize = 15)
 plt.xlim(2000, 2017)
 plt.show()
-
-
 
 
 # Plot 2 : Boxplot grouped by Month
